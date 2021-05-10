@@ -1,0 +1,25 @@
+// HEADER
+header {
+    background-image: url('../img/footer-3.jpg');
+}
+
+nav {
+    @include display_flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+    .menu {
+        @include display_flex;
+        list-style-type: none;
+        margin-top: 40px;
+        .list-menu {
+            margin-right: 30px;
+            font-family: 'Roboto', sans-serif;
+        }
+        a {
+            color: $color-white;
+        }
+    }
+}
+// END HEADER

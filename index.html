@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Author</title>
 
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kristi&family=Noto+Serif+TC:wght@400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="dist/app.css">
 
@@ -14,7 +20,43 @@
 </head>
 <body>
     <div id="root">
+        <div class="container">
+            <!-- HEADER -->
+            <header>
+                <div class="">
+                    <nav>
+                        <div>
+                            <img src="img/author-logo-round-small.png" alt="Author Logo">
+                        </div>
+                        <div class="navbar-menu">
+                            <ul class="menu">
+                                <li class="list-menu" v-for="item in navbar">
+                                    <a href="#">{{ item.navitem }}</a>
+                                </li>
+                                <li>
+                                    <a class="shop-icon" href="#">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- END HEADER -->
 
+            <!-- MAIN -->
+            <main>
+
+            </main>
+            <!-- END MAIN -->
+
+            <!-- FOOTER -->
+            <footer>
+
+            </footer>
+            <!-- END FOOTER -->
+        </div>
     </div>
 
     <!-- JS -->

@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 1920px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url("../img/footer-3.jpg");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+nav .menu {
+  display: flex;
+  list-style-type: none;
+  margin-top: 40px;
+}
+nav .menu .list-menu {
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+}
+nav .menu a {
+  color: #ffffff;
+}
