@@ -24,26 +24,26 @@
             <!-- HEADER -->
             <header>
                 <div class="container">
-                    <nav>
+                    <nav class="flex">
                         <div>
                             <img src="img/author-logo-round-small.png" alt="Author Logo">
                         </div>
                         <div class="navbar-menu">
-                            <ul class="menu">
-                                <li class="list-menu" v-for="item in navbar">
+                            <ul class="menu flex">
+                                <li class="list-menu flex" v-for="item in navbar">
                                     <a href="#">{{ item.navitem }}</a>
-                                </li>
-                                <li>
-                                    <a class="shop-icon" href="#">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
+                                    <!-- <img
+                                        v-if="navbar.length > 7"
+                                        :src="'img/' + item.navitemImg"
+                                        alt="item.navitemImg"
+                                    > -->
                                 </li>
                             </ul>
                         </div>
                     </nav>
 
                     <!-- Heading -->
-                    <section class="main-header">
+                    <section class="main-header flex">
                         <div class="heading">
                             <h1>Damon Vaughn</h1>
                             <h2>
@@ -54,7 +54,7 @@
 
                         <!-- Widget & Button -->
                         <div class="buy-on">
-                            <div class="widget-text">
+                            <div class="widget-text flex">
                                 <div>
                                     <img src="img/book-widget.png" alt="book-widget">
                                 </div>
@@ -64,7 +64,7 @@
                                     <p>Vestibulum tristique turpis in ipsum egestas lobortis. Duis maximus bibendum volutpat. Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
-                            <div class="btn-container">
+                            <div class="btn-container flex">
                                 <button class="btn-amazon">
                                     <i class="fab fa-amazon"></i> Buy On Amazon
                                 </button>
@@ -80,7 +80,58 @@
 
             <!-- MAIN -->
             <main>
+                <!-- First Section -->
+                <section class="first-section">
+                    <div class="more-about">
+                        <h2>More About Damon Vaughn</h2>
+                        <p>Damon Vaughn is a professor of psychology at the University of Toronto, a clinical psychologist and the author of the multi-million copy bestseller "The story of my life."</p>
+                        <button>Meet the Author</button>
+                    </div>
 
+                    <div class="partner-app">
+                        <ul class="app-logo flex">
+                            <li v-for="images in appLogo">
+                                <img :src="'img/' + images.imgFile" alt="images.imgFile">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End First Section -->
+
+                <!-- Second Section -->
+                <section class="second-section">
+                    <div class="new-audiobook-container">
+                        <div class="banner-one flex">
+                            <div class="banner flex">
+                                <img src="img/audible-app-2x.png" alt="audible">
+                            </div>
+    
+                            <div class="audiobook">
+                                <h2>New Audiobook</h2>
+                                <h3>No Time to read? No problem. Listen to it</h3>
+                                <p>Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue cursus.</p>
+                                <ul class="flex">
+                                    <li v-for="logo in logoBook">
+                                        <img :src="'img/' + logo.logoFile" alt="logo.logoFile">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Second Section -->
+
+                <!-- Third Section -->
+                <section>
+                    
+                </section>
+                <!-- End Third Section -->
+
+                <!-- Fourth Section -->
+                <section>
+                    
+                </section>
+                <!-- End Fourth Section -->
             </main>
             <!-- END MAIN -->
 

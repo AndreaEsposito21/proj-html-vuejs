@@ -1,0 +1,95 @@
+// MAIN
+// First Section
+.more-about {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    h2 {
+        font-size: 6em;
+        font-family: 'Kristi', cursive;
+        color: $color-orange;
+        font-weight: 400;
+    }
+    p {
+        font-size: 30px;
+        line-height: 65px;
+        margin: 10px 0;
+    }
+    button {
+        margin: 30px 0;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 40px;
+        background-color: #3da698;
+        font-size: 17px;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            background-color: #357f60;
+        }
+    }
+}
+
+.partner-app {
+    background-color: #f3ece3;
+    .app-logo {
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+        li {
+            padding: 60px;
+            cursor: pointer;
+        }
+    }
+}
+// End First Section
+
+// Second Section
+.new-audiobook-container {
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .banner-one {
+        width: calc(100% / 2);
+        margin: auto;
+        padding-top: 75px;
+        // padding-right: 25px;
+        // padding-left: 25px;
+        .banner {
+            width: 74%;
+            cursor: pointer;
+        }
+        .audiobook {
+            color: white;
+            text-align: center;
+            margin-top: 75px;
+            h2 {
+                font-family: 'Noto Serif TC', serif;
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+            h3 {
+                color: $color-orange;
+                font-weight: 400;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                padding: 20px 24px;
+                font-size: 17px;
+            }
+            p {
+                color: #86888e;
+                padding: 15px 40px;
+                font-size: 18px;
+            }
+            ul {
+                justify-content: space-evenly;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+// End Second Section
+// END MAIN
