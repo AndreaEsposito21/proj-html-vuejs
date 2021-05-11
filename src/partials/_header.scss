@@ -1,6 +1,9 @@
 // HEADER
 header {
     background-image: url('../img/footer-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -19,6 +22,91 @@ nav {
         }
         a {
             color: $color-white;
+            &:hover {
+                color: $color-orange;
+            }
+        }
+    }
+}
+
+// Heading
+.main-header {
+    @include display_flex;
+    justify-content: space-between;
+    .heading {
+        margin-left: 16%;
+        margin-right: 10%;
+        h1 {
+            font-family: 'Kristi', cursive;
+            color: $color-orange;
+            font-size: 7em;
+        }
+        h2 {
+            font-family: 'Noto Serif TC', serif;
+            color: $color-white;
+            font-size: 38px;
+        }
+        p {
+            font-family: 'Roboto', sans-serif;
+            color: $color-suvagray;
+            margin: 20px 0;
+            font-size: 20px;
+        }
+    }
+
+    // Widget & Button
+    .buy-on {
+        margin-left: 2%;
+        background-color: $color-white;
+        .widget-text {
+            @include display_flex;
+            padding: 30px 35px;
+            img {
+                width: auto;
+            }
+            .book-release {
+                width: 290px;
+            }
+            h2 {
+                font-size: 22px;
+                margin: $margin-vert-text;
+                font-family: 'Noto Serif TC', serif;
+            }
+            h3 {
+                font-size: 16px;
+                font-weight: 500;
+                color: $color-orange;
+                text-transform: uppercase;
+                margin: $margin-vert-text;
+                letter-spacing: 3px;
+            }
+            p {
+                color: $color-suvagray;
+                line-height: 1.8em;
+            }
+        }
+        .btn-container {
+            @include display_flex;
+            justify-content: center;
+            padding: 10px 20px;
+            button {
+                cursor: pointer;
+                border: 1px solid #a4d2c2;
+                padding: 15px 40px;
+                background: #f5fcfa;
+                font-size: 15px;
+                box-shadow: 0px 0px 20px 1px #bec6be;
+                &:hover {
+                    background: $color-white;
+                    border: 1px solid #3da698;
+                }
+            }
+            .btn-amazon {
+                border-radius: 10px 0px 0px 10px;
+            }
+            .btn-appstore {
+                border-radius: 0px 10px 10px 0px;
+            }
         }
     }
 }

@@ -5,12 +5,16 @@
 }
 
 body {
-    width: 1920px;
+    max-width: 1920px;
+    font-family: 'Roboto', sans-serif;
 
     // TEST
     // font-family: 'Kristi', cursive;
     // font-family: 'Noto Serif TC', serif;
-    // font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 ul {
