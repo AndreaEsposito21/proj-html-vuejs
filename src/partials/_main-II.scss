@@ -129,6 +129,66 @@
 // Fourth Section
 .upcoming-event {
     background-color: $color-dawn;
+    padding: 30px;
+    .centred-titles {
+        text-align: center;
+        h2 {
+            margin: $margin-vert-text;
+            font-family: 'Noto Serif TC', serif;
+            font-size: 2.5em;
+        }
+        h3 {
+            font-size: 1em;
+            font-weight: 500;
+            color: $color-orange;
+        }
+    }
+    .events-container {
+        justify-content: space-around;
+        padding: 30px 0px;
+        width: 90%;
+        margin: auto;
+        .events {
+            flex: 33%;
+            background-color: $color-white;
+            margin: 0px 25px;
+            position: relative;
+            .overlay {
+                cursor: pointer;
+                opacity:0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 301px;
+                background: linear-gradient(to top,rgba(73,169,135,0.31) 0,rgba(255,255,255,0.39) 100%);
+            }
+            .overlay-img:hover .overlay{
+                opacity: 1;
+            }
+            .events-inner {
+                text-align: center;
+                padding: 10px 20px;
+                width: 90%;
+                margin: auto;
+            }
+            h3 {
+                font-weight: 400;
+                text-transform: capitalize;
+                font-size: 1.5em;
+                letter-spacing: 1px;
+                padding: 20px;
+                border-bottom: 1px solid #bec6be;
+                margin-bottom: 20px;
+            }
+            p {
+                padding: 20px;
+                font-size: 18px;
+                line-height: 1.8em;
+                color: #86888e;
+            }
+        }
+    }
 }
 // End Fourth Section
 // END MAIN II
