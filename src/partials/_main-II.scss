@@ -178,7 +178,7 @@
                 font-size: 1.5em;
                 letter-spacing: 1px;
                 padding: 20px;
-                border-bottom: 1px solid #bec6be;
+                border-bottom: 1px solid lightgray;
                 margin-bottom: 20px;
             }
             p {
@@ -191,4 +191,60 @@
     }
 }
 // End Fourth Section
+
+// Fifth Section
+.subscribe-newsletter {
+    background-image: url('../img/banner-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .banner-two {
+        text-align: center;
+        padding: 2% 37%;
+        h2 {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 2em;
+            color: $color-white;
+            text-transform: capitalize;
+            margin-top: 20px;
+        }
+        h3 {
+            color: $color-orange;
+            font-weight: 400;
+            padding: 20px 24px;
+            font-size: 17px;
+        }
+        .input-bar {
+            justify-content: center;
+            margin: $margin-vert-text;
+            input {
+                padding: 20px 25px;
+                border: none;
+                border-radius: 5px;
+                margin-right: 20px;
+                font-size: 17px;
+                &:focus {
+                    border: none;
+                }
+            }
+            button {
+                padding: 20px 40px;
+                font-size: 17px;
+                border: none;
+                border-radius: 5px;
+                background-color: $color-green;
+                color: $color-white;
+                &:hover {
+                    background-color: #357f60;
+                }
+            }
+        }
+        p {
+            color: $color-suvagray;
+            padding: 15px 40px;
+            font-size: 18px;
+        }
+    }
+}
+// End Fifth Section
 // END MAIN II

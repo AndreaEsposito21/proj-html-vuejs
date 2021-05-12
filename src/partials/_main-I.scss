@@ -77,13 +77,16 @@
                 font-size: 17px;
             }
             p {
-                color: #86888e;
+                color: $color-suvagray;
                 padding: 15px 40px;
                 font-size: 18px;
             }
             ul {
                 justify-content: space-evenly;
                 margin-top: 20px;
+                img {
+                    cursor: pointer;
+                }
             }
         }
     }
