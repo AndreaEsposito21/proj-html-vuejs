@@ -25,7 +25,6 @@
         background-color: #3da698;
         font-size: 17px;
         color: white;
-        cursor: pointer;
         &:hover {
             background-color: #357f60;
         }
@@ -33,7 +32,7 @@
 }
 
 .partner-app {
-    background-color: #f3ece3;
+    background-color: $color-dawn;
     .app-logo {
         justify-content: center;
         width: 70%;
@@ -74,8 +73,6 @@
             h3 {
                 color: $color-orange;
                 font-weight: 400;
-                letter-spacing: 3px;
-                text-transform: uppercase;
                 padding: 20px 24px;
                 font-size: 17px;
             }

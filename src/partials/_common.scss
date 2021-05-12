@@ -25,6 +25,15 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+button {
+    cursor: pointer;
+}
+
 .flex {
     @include display_flex;
 }

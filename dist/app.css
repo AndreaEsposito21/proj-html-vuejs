@@ -21,12 +21,21 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+button {
+  cursor: pointer;
+}
+
 .flex {
   display: flex;
 }
 
 header {
-  background-image: url("../img/footer-3.jpg");
+  background-image: linear-gradient(rgba(48, 48, 48, 0.29) 0%, rgba(0, 0, 0, 0.68) 100%), url("../img/hero-07-2x.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,9 +112,7 @@ nav .menu a:hover {
   font-size: 16px;
   font-weight: 500;
   color: #f3b329;
-  text-transform: uppercase;
   margin: 20px 0;
-  letter-spacing: 3px;
 }
 .main-header .buy-on .widget-text p {
   color: #868586;
@@ -116,7 +123,6 @@ nav .menu a:hover {
   padding: 10px 20px;
 }
 .main-header .buy-on .btn-container button {
-  cursor: pointer;
   border: 1px solid #a4d2c2;
   padding: 15px 40px;
   background: #f5fcfa;
@@ -160,7 +166,6 @@ nav .menu a:hover {
   background-color: #3da698;
   font-size: 17px;
   color: white;
-  cursor: pointer;
 }
 .more-about button:hover {
   background-color: #357f60;
@@ -207,8 +212,6 @@ nav .menu a:hover {
 .new-audiobook-container .banner-one .audiobook h3 {
   color: #f3b329;
   font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
   padding: 20px 24px;
   font-size: 17px;
 }
@@ -220,4 +223,135 @@ nav .menu a:hover {
 .new-audiobook-container .banner-one .audiobook ul {
   justify-content: space-evenly;
   margin-top: 20px;
+}
+
+.critic-say {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 25px;
+}
+.critic-say .best-author {
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.critic-say .best-author .ba-wrapper {
+  flex: 70%;
+  background-image: linear-gradient(rgba(48, 48, 48, 0.29) 0%, rgba(0, 0, 0, 0.68) 100%), url("../img/testimonial2-2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 75px 0px;
+  max-height: 750px;
+}
+.critic-say .best-author .ba-wrapper .ba-container {
+  padding: 80px;
+  color: #ffffff;
+}
+.critic-say .best-author .ba-wrapper .ba-container h2 {
+  padding: 35px 0;
+  border-bottom: 1px solid #96a4a3;
+  font-size: 36px;
+  margin-bottom: 25px;
+  font-family: "Noto Serif TC", serif;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.critic-say .best-author .ba-wrapper .ba-container h4 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.critic-say .best-author .ba-wrapper .ba-container p {
+  margin: 30px 0;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  font-size: 17px;
+  font-weight: 300;
+}
+.critic-say .best-author .ba-wrapper .ba-container .nytimes-logo-container {
+  padding-top: 25px;
+}
+.critic-say .best-author .ba-wrapper .ba-container .nytimes-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.critic-say .best-author .ba-wrapper .ba-container .green {
+  color: #3da698;
+  margin-left: 10px;
+}
+.critic-say .best-author .testimonials {
+  flex-direction: column;
+  flex: 40%;
+  margin-left: 10%;
+}
+.critic-say .best-author .testimonials .journal-text {
+  padding: 40px;
+  text-align: center;
+  background-color: #f3ece3;
+}
+.critic-say .best-author .testimonials .journal-text h3 {
+  font-family: "Noto Serif TC", serif;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  font-size: 1.4em;
+}
+.critic-say .best-author .testimonials .journal-text p {
+  margin: 30px 0;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  font-size: 17px;
+  font-weight: 300;
+}
+.critic-say .best-author .testimonials .journal {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.critic-say .best-author .testimonials .journal .journal-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.critic-say .best-author .testimonials .journal .journalist {
+  color: #86888e;
+}
+.critic-say .best-author .testimonials .journal span {
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.heading-articles {
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-articles h2 {
+  font-size: 2em;
+  font-family: "Noto Serif TC", serif;
+  text-transform: capitalize;
+}
+.heading-articles h3 {
+  font-weight: 400;
+  font-size: 1em;
+  margin: 20px 0;
+  color: #3da698;
+}
+.heading-articles button {
+  padding: 13px 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3b329;
+  color: #ffffff;
+  font-size: 14px;
+}
+.heading-articles button:hover {
+  background-color: #e1aa40;
+}
+
+.upcoming-event {
+  background-color: #f3ece3;
 }

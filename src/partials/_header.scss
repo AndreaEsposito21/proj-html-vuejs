@@ -1,6 +1,6 @@
 // HEADER
 header {
-    background-image: url('../img/footer-3.jpg');
+    background-image: linear-gradient(rgba(48, 48, 48, 0.29) 0%, rgba(0, 0, 0, 0.68) 100%), url('../img/hero-07-2x.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,9 +78,7 @@ nav {
                 font-size: 16px;
                 font-weight: 500;
                 color: $color-orange;
-                text-transform: uppercase;
                 margin: $margin-vert-text;
-                letter-spacing: 3px;
             }
             p {
                 color: $color-suvagray;
@@ -91,7 +89,6 @@ nav {
             justify-content: center;
             padding: 10px 20px;
             button {
-                cursor: pointer;
                 border: 1px solid #a4d2c2;
                 padding: 15px 40px;
                 background: #f5fcfa;

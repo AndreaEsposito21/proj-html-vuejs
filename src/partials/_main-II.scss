@@ -1,7 +1,134 @@
 // MAIN II
 // Third Section
+.critic-say {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 25px;
+    
+    .best-author {
+        justify-content: space-between;
+        margin: $margin-vert-text;
+        .ba-wrapper {
+            flex: 70%;
+            background-image: linear-gradient(rgba(48, 48, 48, 0.29) 0%, rgba(0, 0, 0, 0.68) 100%), url('../img/testimonial2-2x.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 0px 0px 75px 0px;
+            max-height: 750px;
+            .ba-container {
+                padding: 80px;
+                color: $color-white;
+                h2 {
+                    padding: 35px 0;
+                    border-bottom: 1px solid #96a4a3;
+                    font-size: 36px;
+                    margin-bottom: 25px;
+                    font-family: 'Noto Serif TC', serif;
+                    width: fit-content;
+                }
+                h4 {
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    font-size: 18px;
+                }
+                p {
+                    margin: 30px 0;
+                    letter-spacing: 1px;
+                    line-height: 1.8em;
+                    font-size: 17px;
+                    font-weight: 300;
+                }
+                .nytimes-logo-container {
+                    padding-top: 25px;
+                }
+                .nytimes-logo {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 20px;
+                }
+                .green {
+                    color: #3da698;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .testimonials {
+            flex-direction: column;
+            flex: 40%;
+            margin-left: 10%;
+            .journal-text {
+                padding: 40px;
+                text-align: center;
+                background-color: $color-dawn;
+                h3 {
+                    font-family: 'Noto Serif TC', serif;
+                    text-transform: capitalize;
+                    letter-spacing: 0px;
+                    font-size: 1.4em;
+                }
+                p {
+                    margin: 30px 0;
+                    letter-spacing: 1px;
+                    line-height: 1.8em;
+                    font-size: 17px;
+                    font-weight: 300;
+                }
+            }
+            .journal {
+                margin-top: 20px;
+                margin-bottom: 50px;
+                .journal-logo {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 20px;
+                }
+                .journalist {
+                    color: #86888e;
+                }
+                span {
+                    letter-spacing: 1px;
+                    line-height: 1.8em;
+                    font-size: 17px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
+.heading-articles {
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+        font-size: 2em;
+        font-family: 'Noto Serif TC', serif;
+        text-transform: capitalize;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 1em;
+        margin: $margin-vert-text;
+        color: #3da698;
+    }
+    button {
+        padding: 13px 45px;
+        border-radius: 5px;
+        border: none;
+        background-color: $color-orange;
+        color: $color-white;
+        font-size: 14px;
+        &:hover {
+            background-color: #e1aa40;
+        }
+    }
+}
 // End Third Section
 
 // Fourth Section
+.upcoming-event {
+    background-color: $color-dawn;
+}
 // End Fourth Section
 // END MAIN II
