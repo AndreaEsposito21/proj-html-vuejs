@@ -667,3 +667,52 @@ footer .copyright i {
 footer .copyright span {
   color: #ffffff;
 }
+
+.fixed-top {
+  position: fixed;
+  top: 20%;
+  right: 5px;
+}
+.fixed-top .fixed-box {
+  background-color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px #868586;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.fixed-top .fixed-box i {
+  color: white;
+  background-color: #33475b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.fixed-top .fixed-box div {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.fixed-top .fixed-box .prize {
+  font-size: 25px;
+  position: relative;
+  color: #3da698;
+}
+.fixed-top .fixed-box .prize .dollar {
+  position: absolute;
+  bottom: 15px;
+  right: 35px;
+  font-size: 15px;
+}
+
+.fixed-bot {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+}
+.fixed-bot .chev-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 6px 18px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px 5px 0px 0px;
+}
