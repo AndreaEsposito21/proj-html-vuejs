@@ -63,6 +63,31 @@
 // End Sixth Section
 
 // Seventh Section
+.recent-articles {
+    background-color: $color-dawn;
+    margin-top: 40px;
+    padding: 25px;
+    .heading-articles {
+        width: 70%;
+        margin: auto;
+        padding: 70px;
+        .button {
+            padding: 13px 60px;
+        }
+    }
+    .box-wrapper {
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+    }
+    .box-container {
+        background-color: $color-white;
+        flex-direction: column;
+        padding: 50px;
+        margin-right: 20px;
+    }
+
+}
 // End Seventh Section
 // END MAIN III
 // END MAIN <-- ------------------ -->

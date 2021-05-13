@@ -535,3 +535,28 @@ nav .menu a:hover {
 .little-deeper .book-preview-container .signing {
   background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.66) 100%), url("../img/box-3.jpg");
 }
+
+.recent-articles {
+  background-color: #f3ece3;
+  margin-top: 40px;
+  padding: 25px;
+}
+.recent-articles .heading-articles {
+  width: 70%;
+  margin: auto;
+  padding: 70px;
+}
+.recent-articles .heading-articles .button {
+  padding: 13px 60px;
+}
+.recent-articles .box-wrapper {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+.recent-articles .box-container {
+  background-color: #ffffff;
+  flex-direction: column;
+  padding: 50px;
+  margin-right: 20px;
+}
