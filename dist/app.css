@@ -554,6 +554,7 @@ nav .menu a:hover {
   width: 80%;
   margin: auto;
   justify-content: center;
+  margin-bottom: 70px;
 }
 .recent-articles .box-container {
   background-color: #ffffff;
@@ -592,4 +593,67 @@ nav .menu a:hover {
   letter-spacing: 1px;
   font-size: 17px;
   margin-top: 15px;
+}
+
+footer {
+  background-image: url("../img/footer-3.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+footer .container {
+  padding: 1% 6%;
+  padding-top: 6%;
+}
+footer .inner {
+  justify-content: space-around;
+}
+footer .flex-son {
+  flex: 33%;
+  margin: 0 50px;
+}
+footer .flex-son h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 45px;
+  font-family: "Noto Serif TC", serif;
+  text-transform: uppercase;
+}
+footer .flex-son p {
+  line-height: 1.8em;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: lightgrey;
+}
+footer .flex-son .use-links {
+  padding: 0 15px;
+}
+footer .flex-son .use-links i {
+  margin-right: 15px;
+  font-size: 10px;
+  color: #ffffff;
+}
+footer .flex-son li {
+  margin: 20px 0;
+  color: lightgrey;
+  font-size: 14px;
+}
+footer .flex-son .social-icons i {
+  margin-right: 15px;
+  margin-top: 20px;
+  color: lightgrey;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 13px;
+  color: #868586;
+}
+footer .copyright i {
+  font-size: 10px;
+  vertical-align: middle;
+}
+footer .copyright span {
+  color: #ffffff;
 }

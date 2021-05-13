@@ -24,8 +24,6 @@ var app = new Vue({
       navitem: 'Shop'
     }, {
       navitem: 'Contact Me'
-    }, {
-      navitemImg: 'shopping-cart.svg'
     }],
     appLogo: [{
       imgFile: '/ebay-logotan-2x.png'
@@ -42,6 +40,26 @@ var app = new Vue({
       logoFile: '/bn-logo-tall.png'
     }, {
       logoFile: '/kindle-logo-tall.png'
+    }],
+    usefulLink: [{
+      link: 'Latest Books'
+    }, {
+      link: 'Upcoming Events'
+    }, {
+      link: 'Recent Articles'
+    }, {
+      link: 'Business Enquiries'
+    }, {
+      link: 'Visit my foundation'
+    }],
+    contact: [{
+      info: '63 E. Studebaker Street Bolingbrook, IL 60440'
+    }, {
+      info: 'Phone: (800)000-000'
+    }, {
+      info: 'Mobile: (800)000-000'
+    }, {
+      info: 'Email: info@your-company.com'
     }]
   },
   methods: {},
