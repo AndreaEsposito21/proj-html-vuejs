@@ -25,6 +25,7 @@ var app = new Vue ({
             }
         ],
 
+        // Loghi App
         appLogo: [
             {
                 imgFile: '/ebay-logotan-2x.png'
@@ -40,6 +41,7 @@ var app = new Vue ({
             }
         ],
 
+        // Audiobook
         logoBook: [
             {
                 logoFile: '/audible-logo.png' 
@@ -52,6 +54,7 @@ var app = new Vue ({
             }
         ],
 
+        // Useful links
         usefulLink : [
             {
                 link: 'Latest Books'
@@ -70,6 +73,7 @@ var app = new Vue ({
             }
         ],
 
+        // Contact Info
         contact: [
             {
                 info: '63 E. Studebaker Street Bolingbrook, IL 60440'
