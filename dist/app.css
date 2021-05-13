@@ -653,6 +653,7 @@ footer .flex-son .social-icons i {
   margin-right: 15px;
   margin-top: 20px;
   color: lightgrey;
+  cursor: pointer;
 }
 footer .copyright {
   text-align: center;
@@ -680,6 +681,7 @@ footer .copyright span {
   box-shadow: 0px 0px 10px 2px #868586;
   margin-bottom: 5px;
   text-align: center;
+  cursor: pointer;
 }
 .fixed-top .fixed-box i {
   color: white;
