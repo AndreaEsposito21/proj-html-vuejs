@@ -1,5 +1,65 @@
 // MAIN III
 // Sixth Section
+.little-deeper {
+    margin-bottom: 25px;
+    .centred-titles {
+        padding: 30px;
+        h3 {
+            color: $color-green;
+        }
+    }
+    .book-preview-container {
+        justify-content: space-around;
+        padding: 30px 0px;
+        width: 90%;
+        margin: auto;
+        .book-preview {
+            flex: 33%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 0px 0px 75px 0px;
+            margin: 0px 25px;
+            text-align: center;
+            height: 520px;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: 0px 0px 10px 5px $color-suvagray;
+            }
+            .preview-inner {
+                flex-direction: column;
+                justify-content: flex-end;
+                height: 100%;
+                padding: 45px;
+                width: 70%;
+                margin: auto;
+                h4 {
+                    padding: 25px;
+                    color: $color-white;
+                    font-weight: 500;
+                    font-size: 1.7em;
+                    border-bottom: 1px solid $color-suvagray;
+                    margin: 23px 0;
+                }
+                p {
+                    color: $color-orange;
+                    font-size: 17px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        .about {
+            background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.66) 100%), url('../img/box-1.jpg');
+        }
+        .latest {
+            background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.66) 100%), url('../img/box-4.jpg');
+        }
+        .signing {
+            background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.66) 100%), url('../img/box-3.jpg');
+        }
+    }
+}
 // End Sixth Section
 
 // Seventh Section
