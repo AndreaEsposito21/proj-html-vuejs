@@ -55,12 +55,21 @@ nav {
             margin: 20px 0;
             font-size: 20px;
         }
+        .arrow {
+            color: $color-white;
+            padding: 15px 18px;
+            margin: 0 1px;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
     }
 
     // Widget & Button
     .buy-on {
         margin-left: 2%;
         background-color: $color-white;
+        margin-top: 80px;
         .widget-text {
             padding: 30px 35px;
             img {
