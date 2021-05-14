@@ -30,8 +30,8 @@
                         </div>
                         <div class="navbar-menu">
                             <ul class="menu flex">
-                                <li class="list-menu flex" v-for="item in navbar">
-                                    <a :href="item.navlink">{{ item.navitem }}</a>
+                                <li class="list-menu flex" v-for="(item, index) in navbar" :class="{ 'active' : index == navList }">
+                                    <a name="up" :href="item.navlink">{{ item.navitem }}</a>
                                 </li>
                                 <li class="list-menu flex">
                                     <a href="#">
@@ -450,7 +450,9 @@
 
             <div class="fixed-bot">
                 <div class="chev-box">
-                    <i class="fas fa-chevron-up"></i>
+                    <a href="#up">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
                 </div>
             </div>
             <!-- End Fixed -->

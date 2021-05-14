@@ -55,6 +55,12 @@ nav .menu .list-menu {
 nav .menu .list-menu:hover {
   border-top: 3px solid #f3b329;
 }
+nav .menu .list-menu.active {
+  border-top: 3px solid #f3b329;
+}
+nav .menu .list-menu.active a {
+  color: #f3b329;
+}
 nav .menu a {
   color: #ffffff;
 }
@@ -711,7 +717,9 @@ footer .copyright span {
 .fixed-bot .chev-box {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 6px 18px;
-  color: #ffffff;
   cursor: pointer;
   border-radius: 5px 5px 0px 0px;
+}
+.fixed-bot .chev-box a {
+  color: #ffffff;
 }

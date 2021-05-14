@@ -22,6 +22,12 @@ nav {
                 border-top: 3px solid $color-orange;
             }
         }
+        .list-menu.active {
+            border-top: 3px solid $color-orange;
+            & a {
+                color: $color-orange;
+            }
+        }
         a {
             color: $color-white;
             &:hover {

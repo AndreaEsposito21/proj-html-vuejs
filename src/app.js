@@ -1,6 +1,7 @@
 var app = new Vue ({
     el: '#root',
     data: {
+        navList: 0,
         navbar: [
             {
                 navitem: 'Home',
@@ -8,27 +9,27 @@ var app = new Vue ({
             },
             {
                 navitem: 'About Me',
-                navlink: 'https://www.google.com/'
+                navlink: '#'
             },
             {
                 navitem: 'Testimonials',
-                navlink: 'https://www.google.com/' 
+                navlink: '#' 
             },
             {
                 navitem: 'My Blog',
-                navlink: 'https://www.google.com/' 
+                navlink: '#' 
             },
             {
                 navitem: 'Meetups',
-                navlink: 'https://www.google.com/' 
+                navlink: '#' 
             },
             {
                 navitem: 'Shop',
-                navlink: 'https://www.google.com/' 
+                navlink: '#' 
             },
             {
                 navitem: 'Contact Me',
-                navlink: 'https://www.google.com/'
+                navlink: '#'
             }
         ],
 
