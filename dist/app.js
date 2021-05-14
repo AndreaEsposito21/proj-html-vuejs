@@ -11,19 +11,26 @@ var app = new Vue({
   el: '#root',
   data: {
     navbar: [{
-      navitem: 'Home'
+      navitem: 'Home',
+      navlink: 'https://www.google.com/'
     }, {
-      navitem: 'About Me'
+      navitem: 'About Me',
+      navlink: 'https://www.google.com/'
     }, {
-      navitem: 'Testimonials'
+      navitem: 'Testimonials',
+      navlink: 'https://www.google.com/'
     }, {
-      navitem: 'My Blog'
+      navitem: 'My Blog',
+      navlink: 'https://www.google.com/'
     }, {
-      navitem: 'Meetups'
+      navitem: 'Meetups',
+      navlink: 'https://www.google.com/'
     }, {
-      navitem: 'Shop'
+      navitem: 'Shop',
+      navlink: 'https://www.google.com/'
     }, {
-      navitem: 'Contact Me'
+      navitem: 'Contact Me',
+      navlink: 'https://www.google.com/'
     }],
     // Loghi App
     appLogo: [{

@@ -31,7 +31,7 @@
                         <div class="navbar-menu">
                             <ul class="menu flex">
                                 <li class="list-menu flex" v-for="item in navbar">
-                                    <a href="#">{{ item.navitem }}</a>
+                                    <a :href="item.navlink">{{ item.navitem }}</a>
                                 </li>
                                 <li class="list-menu flex">
                                     <a href="#">
