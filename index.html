@@ -30,7 +30,12 @@
                         </div>
                         <div class="navbar-menu">
                             <ul class="menu flex">
-                                <li class="list-menu flex" v-for="(item, index) in navbar" :class="{ 'active' : index == navList }">
+                                <li
+                                    class="list-menu flex"
+                                    v-for="(item, index) in navbar" 
+                                    :class="{ 'active' : index == navList }"
+                                    @click="setNavList(index)"
+                                >
                                     <a name="up" :href="item.navlink">{{ item.navitem }}</a>
                                 </li>
                                 <li class="list-menu flex">

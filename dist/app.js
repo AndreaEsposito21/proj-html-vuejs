@@ -74,7 +74,11 @@ var app = new Vue({
       info: 'Email: info@your-company.com'
     }]
   },
-  methods: {},
+  methods: {
+    setNavList: function setNavList(index) {
+      this.navList = index;
+    }
+  },
   mounted: function mounted() {}
 });
 

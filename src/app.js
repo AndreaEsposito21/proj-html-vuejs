@@ -98,7 +98,9 @@ var app = new Vue ({
         ]
     },
     methods: {
-
+        setNavList(index) {
+            this.navList = index;
+        }
     },
     mounted() {
         
